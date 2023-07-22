@@ -61,7 +61,7 @@ Report Paths:
 
 ## Folder Structure:
 
-![App Screenshot](https://i.ibb.co/23cnNmv/Screenshot-2023-07-22-at-9-28-17-PM.png)
+![App Screenshot](https://i.ibb.co/yFCnWm1/Screenshot-2023-07-22-at-11-21-55-PM.jpg)
 
 ```bash
 - /src
