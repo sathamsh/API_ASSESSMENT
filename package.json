@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf reports/",
+    "test": "npm run clean && mocha --timeout 20000 --reporter mochawesome --reporter-options o=./reports/ --reporter-options t=APIAssessmentTestReport --reporter-options charts=true  --reporter-options code=false -r tsconfig-paths/register -r ts-node/register src/test/api.ts"
+  },
+  "keywords": [
+    "webdriverIO",
+    "axios",
+    "typescript",
+    "mocha"
+  ],
+  "author": "Satham Hussian",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "rimraf": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "@types/mochawesome": "^6.2.1",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.6.4"
+  }
+}

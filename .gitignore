@@ -1,0 +1,4 @@
+node_moduels/
+reports/
+*.html
+package-lock.json
