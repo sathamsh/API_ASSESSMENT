@@ -1,4 +1,4 @@
-var assert = require("assert");
+const assert = require("assert");
 require("dotenv").config();
 import { createUserPayload } from "../resource/userPayload";
 import { endpoints } from "../service/endpoints";
