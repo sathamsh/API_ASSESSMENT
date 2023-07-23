@@ -10,7 +10,7 @@
 
 ###
 
-<h6 align="left">Before starting 🏁, make sure you have NodeJS version 14+ installed on your system.</h6>
+<h6 align="left">Before starting 🏁, make sure you have NodeJS version 12+ installed on your system.</h6>
 
 ###
 
